@@ -12,11 +12,8 @@ def posts_by_category(request, category_id):
     except:
         # category not exists, redirect user to homepage
         return redirect('home')
-
-    # Use get_object_or_404 when you want to show 404 error page if the category does not exists
-    #category = get_object_or_404(Category, pk=category_id)
-
-    context ={
+    
+    context = {
         'posts': posts,
         'category': category,
     }
