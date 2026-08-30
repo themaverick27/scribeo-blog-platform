@@ -169,7 +169,10 @@ Posts and categories use **slug-based URLs** (via `slugify` + uniqueness constra
 ![Register](screenshots/Register.png)
 
 ### Search
-![Search](screenshots/Search.png)
+![Search](screenshots/search.png)
+
+### Categories
+![Categories](screenshots/Categories.png)
 
 ---
 
