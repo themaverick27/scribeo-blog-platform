@@ -8,7 +8,8 @@
 
     <!-- Right side content -->
     <div class="col-md-9">
-        {% if perms.auth.view_user %} # this will ensure that no one from outside access the user data and related actions, even if they know exact URL
+        <!-- # this will ensure that no one from outside access the user data and related actions, even if they know exact URL -->
+        {% if perms.auth.view_user %} 
         <h2>All Users</h2>
         <a href="{% url "add_user" %}" class="btn btn-dark text-light float-right mb-2">Add New </a>
         <table class="table table-hover">
