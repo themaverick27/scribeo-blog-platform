@@ -51,7 +51,7 @@ Regular (non-staff) users can browse posts, search, and comment once logged in, 
 | Add / edit / delete users & assign roles | ✅ | ✅ | ❌ | ❌ |
 | Access management dashboard | ✅ | ✅ | ✅ | ❌ |
 | View posts / categories | ✅ | ✅ | ✅ | ✅ |
-| Comment on posts | ✅ | ✅ | ✅ | ✅ (if authenticated) |
+| Comment on posts (only if authenticated) | ✅ | ✅ | ✅ | ✅ |
 
 **Notes:**
 - Users cannot self-register as an Editor or Manager. Only a **Superuser** can promote a user to Editor, and only a **Manager/Superuser** can create/manage user accounts and assign roles.
@@ -160,16 +160,16 @@ Posts and categories use **slug-based URLs** (via `slugify` + uniqueness constra
 ## Screenshots
 
 ### Home
-![Home](screenshots/home.png)
+![Home](screenshots/Home.png)
 
 ### Login
-![Login](screenshots/login.png)
+![Login](screenshots/Login.png)
 
 ### Register
-![Register](screenshots/register.png)
+![Register](screenshots/Register.png)
 
 ### Search
-![Search](screenshots/search.png)
+![Search](screenshots/Search.png)
 
 ---
 
